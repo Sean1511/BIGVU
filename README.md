@@ -1,5 +1,5 @@
 # BIGVU 
-capture screenshot from a given url input and make from it a 10 seconds video.
+Capture screenshot from a given url input and make from it a 10 seconds video.
 
 # Project Setup and Run
 1. Clone this repository.
