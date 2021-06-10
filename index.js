@@ -21,7 +21,7 @@ app.post('/', async (request, response) => {
             return response.status(400).send(`"url" is required query parameter.`);
         }
 
-        const outputFilePath = path.join(__dirname, `output.webm`);
+        const outputFilePath = path.join(__dirname, `video.webm`);
         const ffmpegPath = path.join(__dirname, `ffmpeg.exe`);
         const browser = await puppeteer.launch({ headless: true });
         const page = await browser.newPage();
